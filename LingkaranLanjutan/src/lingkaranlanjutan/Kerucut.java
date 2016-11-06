@@ -29,12 +29,13 @@ public class Kerucut extends Lingkaran {
     }
     
     public double getVolume(){
-        return (super.getLuas()*tinggi)/3;
+        return (super.getLuas()*getTinggi())/3;
     }
 
     @Override
     public String toString() {
-        return "Kerucut{" +super.toString()+ " tinggi=" + tinggi + " Volume="+getVolume()+"}";
+        return super.toString()
+                + "\nKerucut{" + "tinggi=" + tinggi + " Volume="+getVolume()+"}";
     }
     
     

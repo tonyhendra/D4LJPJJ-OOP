@@ -33,7 +33,7 @@ public class Silinder extends Lingkaran{
 
     @Override
     public String toString() {
-        return "Silinder{" +super.toString()+ " tinggi=" + tinggi + " volume="+getVolume()+"}";
+        return super.toString()+"\nSilinder{" + "tinggi=" + tinggi + " volume = "+getVolume()+"}";
     }
     
     

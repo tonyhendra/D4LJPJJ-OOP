@@ -40,7 +40,7 @@ public class Lingkaran {
 
     @Override
     public String toString() {
-        return "r=" + r + " keliling="+getKeliling()+" Luas="+getLuas();
+        return "Lingkaran{" + "r=" + r + " keliling="+getKeliling()+" Luas="+getLuas()+"}";
     }
     
     
